@@ -44,3 +44,26 @@ git remote add origin https://github.com/ahmadabuzar/GENAI.git --> to connect lo
              origin is aliasing for https://github.com/ahmadabuzar/GENAI.git 
 
 git push -u origin main here main is teh branch name mtlb hamre case me master hai ---->to upload our code to github
+
+Branch (Always make the branch name different)
+stash --> ek area jaha tm temp base pe changes to save krte hai commit ni hota 
+git stash --> stash krta hai changes
+git stash apply --> stash wala code leke aata hai
+
+git branch __branch name___  (branch bna ke tmko us jgh le nhi jaega)
+git checkout -b _____branch name____  (branch bna ke tmko bi usi jgh le jaega)
+git switch -c ___branch name____  (branch bna ke tmko bi usi jgh le jaega)
+
+Delete A BRANCH
+git branch -d branchName
+git branch -D branchName
+
+Delete a remote branch(github)
+git push origin --delete branchName
+
+
+Merge a branch
+git merge branchName
+
+To see all branches
+git branch -a
