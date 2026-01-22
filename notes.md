@@ -52,7 +52,8 @@ git stash --> stash krta hai changes
 git stash apply --> stash wala code leke aata hai
 git stash drop "stash@{0}" (to delete a particular stash if deleteing one the pas in "" if more then just pas git stash drop stash@{0,1})
 git stash clear sare stash ek bar me clear
-git push -u origin main here main is teh branch name mtlb hamre case me master hai ---->to upload our code to github
+
+git push -u origin main here main is teh branch name mtlb hamre case me master hai ---->to upload our code to github uske baad fr hmesha git push origin main krna hai
 
 Branch (Always make the branch name different)
 stash --> ek area jaha tm temp base pe changes to save krte hai commit ni hota 
