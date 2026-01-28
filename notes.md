@@ -77,3 +77,11 @@ git merge branchName
 
 To see all branches
 git branch -a
+
+git push -u origin feature/loginform    (FIRST TIME ME -u LIKHEGA FR KBI NI)
+                    ^
+                    |
+                 local me branch bna ke upload krna hai github pr to aise krna hai branch lekin bnegi nhi PR(pull req) bnegi fr approve hogi to branch bnegi
+
+git clone httpsaddressGitHubKa         to clone a project
+     
